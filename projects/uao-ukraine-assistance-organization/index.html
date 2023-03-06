@@ -65,17 +65,18 @@
     <!-- STARTS SECTION 1: HOME: María Quintana & Jésica Ortiz -->
     <section class="section1-home" id="home">
         <div class="max-width">
-            <div class="container">
+            <div class="container-home">
                 <div class="left">
                     <h1>Donating is about making a </h1>
-                    <h1 class="variante">Difference.</h1>
+                    <h1 id="variante" class="variante">Difference.</h1>
                     <a href="#" class="donate-btn">Donate Now</a>
                 </div>
-                <div class="rigth">
-                    <img src="" alt="">
-                    <img src="" alt="">
+                <div class="right">
+                    <div class="images-home">
+                        <img src="./assets/images/home/people.svg" class="home-img1" alt="imagen de un grupo de personas">
+                        <img src="./assets/images/home/old-woman.svg" class="home-img2" alt="imagen de una señora mayor">
+                    </div>
                 </div>
-
             </div>
         </div>
     </section>
@@ -136,26 +137,26 @@
         <div class="max-width">
             <div class="container">
                 <div class="container_header">
-                    <h2>GET INVOLVED</h2>
-                    <a href="">See more <img src="assets/icons/right-arrow-circled.svg" alt=""></a>
+                    <h2>GET <span>INVOLVED</span></h2>
+                    <a href="">See More <img src="assets/icons/right-arrow-circled.svg" alt=""></a>
                 </div>
                 <div class="container_cards">
                     <div class="container_cards-3">
                         <div><img src="assets/images/get-involved/become-a-volunteer.svg" alt=""> </div>
                         <div>
-                            <h4>Become a Volunteer!</h4>
-                            <p>We can always use experienced volunteers for medical care, logistics, interpreting,
-                                procurement, and security.</p>
-                            <button>Become a Volunteer</button>
+                            <div class="cards-title">Become a Volunteer!</div>
+                            <div class="cards-description">We can always use experienced volunteers for medical care, logistics, interpreting,
+                                procurement, and security.</div>
+                            <button class="button1">Become a Volunteer</button>
                         </div>
                     </div>
                     <div class="container_cards-3">
                         <div class="img-1"><img src="assets/images/get-involved/donate.svg" alt=""></div>
                         <div>
-                            <h4>Donate</h4>
-                            <p>A small amount of money goes a long way in Ukraine. Even $5 USD can buy a month of
-                                medications or a full box of wound dressings.</p>
-                            <button>Donate Now</button>
+                            <div class="cards-title">Donate</div>
+                            <div class="cards-description">A small amount of money goes a long way in Ukraine. Even $5 USD can buy a month of
+                                medications or a full box of wound dressings.</div>
+                            <button class="button2">Donate Now</button>
                         </div>
                     </div>
                     <div class="container_cards-3">
@@ -163,15 +164,21 @@
                             <img src="assets/images/get-involved/share-on-social-media.svg" alt="">
                         </div>
                         <div>
-                            <h4>Share on Social Media</h4>
-                            <p>Did you know that every share can help raise an average of $35 toward a campaign's goal?
-                            </p>
-                            <a href="http://" target="_blank">
-                                <img src="assets/icons/facebook-white.svg" alt="">
-                            </a>
-                            <a href="http://" target="_blank">
-                                <img src="assets/icons/instagram-white.svg" alt="">
-                            </a>
+                            <div class="cards-title">Share on Social Media</div>
+                            <div class="cards-description">Did you know that every share can help raise an average of $35 toward a campaign's goal?
+                            </div>
+                            <div class="cards-socialmedia">
+                                <div class="social-media-icons">
+                                <a href="http://" target="_blank">
+                                    <img src="assets/icons/facebook-white.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="social-media-icons">
+                                <a href="http://" target="_blank">
+                                    <img src="assets/icons/instagram-white.svg" alt="">
+                                </a>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -276,12 +283,16 @@
                     </h1>
                 </div>
                 <div class="subcontainer">
-                    <img src="./assets/images/partners/partner-allaquix.webp" width="250px">
-                    <img src="./assets/images/partners/partner-gostinnahata.webp" height="120px">
-                    <img src="./assets/images/partners/partner-human-front-aid.webp" alt="" srcset="">
-                    <img src="./assets/images/partners/partner-nova-ukraine.webp">
-                    <img src="./assets/images/partners/partner-new-dawn.webp" alt="" srcset="">
-                    <img src="./assets/images/partners/partner-psa-protect-survive-achieve.webp" height="80px">
+                    <div class="slider-frame">
+                        <ul>
+                            <li><img src="./assets/images/partners/partner-allaquix.webp"></li>
+                            <li><img src="./assets/images/partners/partner-gostinnahata.webp" height="150px"></li>
+                            <li><img src="./assets/images/partners/partner-human-front-aid.webp" alt="" srcset=""></li>
+                            <li><img src="./assets/images/partners/partner-nova-ukraine.webp"></li>
+                            <li><img src="./assets/images/partners/partner-new-dawn.webp" alt="" srcset=""></li>
+                            <li><img src="./assets/images/partners/partner-psa-protect-survive-achieve.webp" height="80px"></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
